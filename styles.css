@@ -1,1 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+    height: 100%;
+}
+.head-background {
+    width: 100%;
+    height: auto;
+}
+.container-body {
+    display:flex;
+    text-align: center;
+    border-radius: 10px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto;
+    border-radius: 8px;
+}
