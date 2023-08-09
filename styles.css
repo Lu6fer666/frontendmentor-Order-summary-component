@@ -76,8 +76,22 @@ body {
     color: var(--clneutral-darkblue);
 }
 
-.container-payment {
+.cardPayment {
     background-color: var(--clneutral-verypaleblue);
-    border-radius: 8px;
-    padding: 5px;
+    border-radius: 1em;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    align-items: center;
+}
+
+.PaymentLeft {
+    display: grid;
+    grid-row: auto;
+
+}
+
+.PaymentRight {
+
 }
