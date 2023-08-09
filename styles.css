@@ -2,6 +2,18 @@
 
 :root {
 
+/* PRIMARY COLORS*/ 
+
+--clprimary-paleblue: hsl(225, 100%, 94%);
+--clprimary-brightblue: hsl(245, 75%, 52%);
+
+/* NEUTRAL COLORS */
+
+--clneutral-verypaleblue: hsl(225, 100%, 98%);
+--clneutral-desaturatedblue: hsl(224, 23%, 55%);
+--clneutral-darkblue: hsl(223, 47%, 23%);
+
+
 /* FONTS */
 --ffmain: 'Red Hat Display', sans-serif;
 
@@ -38,4 +50,34 @@ body {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+.cardBody {
+    display: grid;
+    text-align: center;
+    margin: auto 2rem;
+}
+
+.cardBody p, .attribution {
+    font-size: 16px;
+    color:var(--clneutral-desaturatedblue);
+}
+
+.cardBody h1 {
+    font-size: 22px;
+    padding: 15px;
+}
+
+.cardBody h2 {
+    font-size: 16px;
+}
+
+.cardBody h1, .cardBody h2 {
+    color: var(--clneutral-darkblue);
+}
+
+.container-payment {
+    background-color: var(--clneutral-verypaleblue);
+    border-radius: 8px;
+    padding: 5px;
 }
